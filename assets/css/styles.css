@@ -42,7 +42,7 @@ body {
     grid-area: main;
     background-color: #eee;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
