@@ -41,13 +41,12 @@ body {
 .layout > .main {
     grid-area: main;
     background-color: #eee;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+
 }
 
 .layout > .main > div {
-    width: 30%;
     background-color: white;
     border: 1px solid #ddd;
     display: flex;
@@ -57,16 +56,14 @@ body {
 }
 
 img {
-    width: 100%;
     height: 100%;
+    width: 12rem;
     object-fit: cover;
 }
 
 .card h3 {
     margin: 10px;
 }
-
-.card 
 
 .btn {
     background-color:black;
